@@ -1,17 +1,15 @@
-import { useEffect, useState } from 'react'
-import { useNavigate } from 'react-router-dom'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+// import { Outlet } from 'react-router-dom'
+// import './App.css'
 
-function App() {
+// const App = () => {
+//   return (
+//     <div className="min-h-screen flex items-center justify-center p-8">
+//       <div className="w-full max-w-4xl min-h-[80vh] bg-white/70 backdrop-blur-md
+//        shadow-xl overflow-y-auto border">
+//         <Outlet />
+//       </div>
+//     </div>
+//   )
+// }
 
-  return (
-    <>
-      <p className='text-5xl'>We are in /app</p>
-      
-    </>
-  )
-}
-
-export default App
+// export default App;

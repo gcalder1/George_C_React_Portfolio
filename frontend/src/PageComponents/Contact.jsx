@@ -2,8 +2,8 @@ import { useState } from "react";
 
 export const Contact = () => {
     return (
-        <div>
-            <p className="text-5xl">We are in /Contact</p>
+        <div className="pt-5 pb-10 pl-3.5 pr-3.5">
+            <p className="text-5xl">We are in /contact</p>
         </div>
     )
 }
