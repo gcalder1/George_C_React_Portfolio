@@ -9,13 +9,11 @@ import { Home } from './PageComponents/Home.jsx';
 import { About } from './PageComponents/About.jsx';
 import { Contact } from './PageComponents/Contact.jsx';
 import { Projects } from './PageComponents/Projects.jsx';
-import { NavigationContainer } from './Components/NavigationContainer.jsx';
 
 createRoot(document.getElementById('root')).render(
 
   <StrictMode>
     <BrowserRouter>
-      {/* <NavigationContainer /> */}
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route path="/home" element={<Home />}/>
