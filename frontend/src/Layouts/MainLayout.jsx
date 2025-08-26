@@ -1,6 +1,6 @@
 import { Outlet } from "react-router-dom";
-import { NavigationContainer } from "../Components/NavigationContainer";
-import { BottomBar } from "../Components/BottomBar";
+import { NavigationContainer } from "../components/NavigationContainer";
+import { BottomBar } from "../components/BottomBar";
 
 
 export const Layout = () => {

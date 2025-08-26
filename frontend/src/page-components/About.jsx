@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { InfoCard } from "../components/InfoCard";
-import { ListCard } from "../Components/ListCard";
+import { ListCard } from "../components/ListCard";
 
 export const About = () => {
     return (
