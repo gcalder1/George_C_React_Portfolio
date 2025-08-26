@@ -27,42 +27,42 @@ export const About = () => {
                 />
             </div>
             <div className="pt-10 grid grid-cols-3 gap-6">
-                <ListCard styling={""} title={"Hobbies"} items={[
+                <ListCard cardStyling={""} cardTitle={"Hobbies"} cardItems={[
                     { icon: "🎵", text: "Listening to and creating music" },
                     { icon: "💪", text: "Working out" },
                     { icon: "🎮", text: "Playing PC and Mobile Games" },
                     { icon: "📸", text: "Exploring NYC" },
                     { icon: "🧁", text: "Attempting baking" },
                 ]}/>
-                <ListCard styling={""} title={"Aspirations"} items={[
+                <ListCard cardStyling={""} cardTitle={"Aspirations"} cardItems={[
                     { icon: "🌍", text: "Traveling the world twice" },
                     { icon: "🍽️", text: "Beating the disgusting food museum challenge" },
                     { icon: "🗣️", text: "Learning 3 more languages" },
                     { icon: "🌐", text: "Creating an enjoyable website" },
                     { icon: "🚴‍♂️", text: "Learning how to ride a bike" },
                     ]}/>
-                <ListCard styling={""} title={"Habits"} items={[
+                <ListCard cardStyling={""} cardTitle={"Habits"} cardItems={[
                     { icon: "🙏", text: "Daily Gratitude" },
                     { icon: "📖", text: "Reading about something positive at least once a day" },
                     { icon: "🎯", text: "Revisiting an un-touched skill" },
                     { icon: "📚", text: "Trying a new book each season" },
                     { icon: "⏰", text: "Not eating past 8 PM until 8 AM" },
                     ]}/>
-                <ListCard styling={""} title={"Strengths"} items={[
+                <ListCard cardStyling={""} cardTitle={"Strengths"} cardItems={[
                     { icon: "📣", text: "I’m a cheerleader" },
                     { icon: "🤝", text: "I thrive in collaborative environments" },
                     { icon: "✨", text: "I enjoy helping my team shine" },
                     { icon: "🔥", text: "I’m relentless and ready to learn new things" },
                     { icon: "🌟", text: "I have a strong belief in the potential of those around me" },
                     ]}/>
-                <ListCard styling={""} title={"Weaknesses"} items={[
+                <ListCard cardStyling={""} cardTitle={"Weaknesses"} cardItems={[
                     { icon: "⚖️", text: "Work-life balance" },
                     { icon: "💼", text: "Over-investment in projects" },
                     { icon: "🎤", text: "Public speaking" },
                     { icon: "💬", text: "Communicating ideas" },
                     { icon: "🔍", text: "Over-focusing on details" },
                     ]}/>
-                <ListCard styling={""} title={"Passions"} items={[
+                <ListCard cardStyling={""} cardTitle={"Passions"} cardItems={[
                     { icon: "📚", text: "Life-long learning" },
                     { icon: "🤲", text: "Community Service and Outreach" },
                     { icon: "✈️", text: "Travel and Cultural Exploration" },

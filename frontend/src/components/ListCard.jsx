@@ -1,9 +1,9 @@
-export const ListCard = ({ title, items, styling }) => {
+export const ListCard = ({ cardTitle, cardItems, cardStyling }) => {
   return (
-    <div className={styling}>
-      <h2 className="text-2xl font-semibold mb-4">{title}</h2>
+    <div className={cardStyling}>
+      <h2 className="text-2xl font-semibold mb-4">{cardTitle}</h2>
       <ul className="space-y-2">
-        {items.map((item, index) => (
+        {cardItems.map((item, index) => (
           <li key={index} className="flex items-center gap-2">
             <span>{item.icon}</span>
             <span>{item.text}</span>
