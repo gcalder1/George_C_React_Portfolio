@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { ProjectCard } from "../components/ProjectCard";
+import { ProjectCard } from "../Components/ProjectCard";
 
 export const Projects = () => {
     return (

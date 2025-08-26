@@ -1,5 +1,5 @@
-import { ProfileHolder } from "../components/ProfileHolder";
-import { ContactForm } from "../components/ContactForm";
+import { ProfileHolder } from "../Components/ProfileHolder";
+import { ContactForm } from "../Components/ContactForm";
 
 export const Contact = () => {
   return (

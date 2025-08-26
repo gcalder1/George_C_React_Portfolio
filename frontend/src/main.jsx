@@ -1,14 +1,12 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import './index.css';
-// import App from './App.jsx';
-
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Layout } from './layouts/MainLayout.jsx';
-import { Home } from './page-components/Home.jsx';
-import { About } from './page-components/About.jsx';
-import { Contact } from './page-components/Contact.jsx';
-import { Projects } from './page-components/Projects.jsx';
+import Layout from './Layouts/MainLayout.jsx';
+import { Home } from './PageComponents/Home.jsx';
+import { About } from './PageComponents/About.jsx';
+import { Contact } from './PageComponents/Contact.jsx';
+import { Projects } from './PageComponents/Projects.jsx';
 
 createRoot(document.getElementById('root')).render(
 
@@ -23,5 +21,5 @@ createRoot(document.getElementById('root')).render(
           </Route>
         </Routes>
     </BrowserRouter>
-  </StrictMode>,
+  </StrictMode>
 )

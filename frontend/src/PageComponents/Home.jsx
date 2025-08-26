@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import { InfoCard } from "../components/InfoCard";
-import { ProfileHolder } from "../components/ProfileHolder";
+import { InfoCard } from "../Components/InfoCard";
+import { ProfileHolder } from "../Components/ProfileHolder";
 
 
 export const Home = () => {
