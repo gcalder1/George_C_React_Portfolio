@@ -1,5 +1,5 @@
-import { NavBar } from "./NavBar.jsx";
-import { Logo } from "./Logo.jsx";
+import { NavBar } from "NavBar.jsx";
+import { Logo } from "Logo.jsx";
 
 export const NavigationContainer = () => {
     return (
