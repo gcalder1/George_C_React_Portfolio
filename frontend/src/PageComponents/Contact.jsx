@@ -4,7 +4,7 @@ import { ContactForm } from "../Components/ContactForm.jsx";
 export const Contact = () => {
   return (
     <div className="pt-5 pb-10 px-3.5">
-      <p className="text-5xl text-center pb-6">Let's stay in touch!</p>
+      <p className="text-4xl md:text-5xl font-bold text-center mb-10 drop-shadow-md">Let's stay in touch!</p>
       <div className="flex justify-center mb-10">
         <ProfileHolder 
           altContent={"George Calderon"} 

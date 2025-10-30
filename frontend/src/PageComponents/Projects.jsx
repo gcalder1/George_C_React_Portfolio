@@ -4,7 +4,7 @@ import { ProjectCard } from "../Components/ProjectCard.jsx";
 export const Projects = () => {
     return (
         <div className="pt-5 pb-10 pl-3.5 pr-3.5">
-            <p className="text-5xl text-center">My Projects!</p>
+            <p className="text-4xl md:text-5xl font-bold text-center mb-10 drop-shadow-md">My Projects!</p>
             <div className="pt-10">
                 <ProjectCard 
                 imageContent={"/projectImagesFolder/KnightsOfJSScreenshot.png"} 
