@@ -3,7 +3,7 @@
 Welcome to my personal portfolio!  
 This project was built to showcase my background, projects, and passion for technology and design — all through a clean, responsive, and modern web experience.
 
-🎯 **Live Site:** [george-c-react-portfolio.vercel.app](https://george-c-react-portfolio.vercel.app/home)  
+🎯 **Live Site:** [george-c-react-portfolio.vercel.app](https://george-c-react-portfolio.vercel.app)  
 🎥 **Video Overview:** [YouTube Demo](https://www.youtube.com/watch?v=Y_i-WT8dEoE)
 
 
