@@ -6,3 +6,7 @@ body {
   background-position: center;
   background-attachment: fixed;
 }
+
+div::-webkit-scrollbar {
+  display: none;
+}
