@@ -13,7 +13,7 @@ export const Contact = () => {
         />
       </div>
       <div>
-        <p className="">Follow my newsletter to get monthly updates on activities, events, or travel plans I’ll be at that may be near you!</p>
+        <p className="">Send me an email so we can keep the conversation going. I would love to get to know you and connect with you!</p>
       </div>
       <ContactForm />
     </div>
